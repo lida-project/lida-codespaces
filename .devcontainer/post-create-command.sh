@@ -14,3 +14,12 @@
 
 # Usage Examples:
 # Set environment variables based on user secrets or permissions
+python3 -m pip install --upgrade pip
+pip install lida[transformers]
+pip install lida[infographics]
+
+# Read Troubleshooting Section For 02-lida.ipynb
+# Let's automate that fix for now
+sudo apt-get install -y liblzma-dev
+pip3 install backports.lzma
+cp .devcontainer/lzma-fix.py /usr/local/python/3.10.8/lib/python3.10/lzma.py
