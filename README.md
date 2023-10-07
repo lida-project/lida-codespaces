@@ -28,4 +28,4 @@ See [examples of setup](https://github.com/victordibia/llmx/blob/main/notebooks/
 
 Each LLM provider has its own set of environment variables that need to be setup for usage. 
  - **Docker Desktop** | create a `.env` and update it with your keys. We `.gitignore` the file so your secrets will not get checked into repo.
- - *GitHub Codespaces** | you have to option to [manage secrets for your Codespaces](https://docs.github.com/en/codespaces/managing-your-codespaces/managing-secrets-for-your-codespaces) via GitHub settings.
+ - **GitHub Codespaces** | you have to option to [manage secrets for your Codespaces](https://docs.github.com/en/codespaces/managing-your-codespaces/managing-secrets-for-your-codespaces) via GitHub settings.
