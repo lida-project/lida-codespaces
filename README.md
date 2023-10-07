@@ -1,4 +1,4 @@
-# GitHub Codespaces ❤️ Jupyter Notebooks ❤️ Microsoft LIDA
+# GitHub Codespaces ❤️ Jupyter ❤️ Microsoft LIDA
 
 This is a Dev Container enabled template for Microsoft LIDA, making it easier for you to instantiate, run, and extend, Jupyter Notebooks running LIDA-driven visualizations in the cloud (using **GitHub Codespaces**) or on your local machine (using **Docker Desktop**) with a single click.
 
@@ -24,9 +24,8 @@ To start using LIDA, you need to setup the API keys for the relevant Large Langu
 See [examples of setup](https://github.com/victordibia/llmx/blob/main/notebooks/tutorial.ipynb) for usage within Jupyter notebooks and more.
 
 
-Each LLM provider has its own set of environment variables that need to be setup for usage. The `.env.copy` file keeps a list of relevant variables for configuration.
- - To use this with local Docker Desktop, make a copy of this file to `.env` and update it with your keys. This template is setup to `.gitignore` the `.env` file so these secrets are not checked into public repos. _However we encourage you to check at commit time, that you are not sharing the API KEY values for any of these providers publicly in either the commit, or in any debug code you write_.
- - To use this with GitHub Codespaces, you have the option of [managing secrets for your Codespaces](https://docs.github.com/en/codespaces/managing-your-codespaces/managing-secrets-for-your-codespaces) via GitHub settings. This will work only for Codespaces deployments but has one key benefit - you can set these up **once** in your profile, and simply **add multiple project repositories**, making it easier to reuse & maintain them as you do more work.
+## Usage: In Dev Containers
 
-
-Codespaces-based template for working with microsoft/lida
+Each LLM provider has its own set of environment variables that need to be setup for usage. 
+ - **Docker Desktop** | create a `.env` and update it with your keys. We `.gitignore` the file so your secrets will not get checked into repo.
+ - *GitHub Codespaces** | you have to option to [manage secrets for your Codespaces](https://docs.github.com/en/codespaces/managing-your-codespaces/managing-secrets-for-your-codespaces) via GitHub settings.
